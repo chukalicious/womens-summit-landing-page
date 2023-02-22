@@ -10,18 +10,21 @@ const Hero = () => {
 
       <div className="hero-content text-center text-accent flex flex-col">
         <div className="min-w-lg">
-          <h2 className="mb-16 text-lg mt-[-7rem] font-medium uppercase min-w-content">
+          <h2 className="mb-16 text-lg mt-[-7rem] uppercase min-w-content ">
             International Women's Day Summit - march 08, 2023 - 9am cst
           </h2>
         </div>
         <div className="min-w-lg">
           <div className="max-w-md flex mx-auto">
-            <h1 className="mb-5 text-[2.75rem] leading-10 font-bold ">
+            <h1 className="mb-5 text-[2.75rem] leading-10 ">
               Celebrate <span className="text-secondary">women</span>. Activate
               change.
             </h1>
           </div>
-          <p className="mb-5 text-2xl max-w-[80%] mx-auto font-serif">
+          <p
+            style={{ fontFamily: "Domine" }}
+            className="mb-8 mt-6 text-2xl max-w-[80%] mx-auto"
+          >
             Join <span className="font-bold">World Encounter</span> as we bring
             together entrepeneurs, BIPOC business owners, CEOs and mothers to
             talk, learn, laugh, and inspire one another-and you- through a

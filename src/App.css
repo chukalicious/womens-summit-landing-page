@@ -4,5 +4,6 @@
 
 body {
   background-color: var(--my-color);
+  font-family: "Domine", serif;
   font-family: "Open Sans", sans-serif;
 }

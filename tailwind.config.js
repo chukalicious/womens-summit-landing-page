@@ -28,8 +28,8 @@ module.exports = {
           error: "#DC2626",
         },
         fontFamily: {
-          sans: ["Open Sans", "sans-serif"],
-          serif: ["Merriweather", "serif"],
+          openSans: ["Open Sans", "sans-serif"],
+          domine: ["Domine", "serif"],
         },
       },
       "light",

@@ -9,7 +9,9 @@ const AboutCard = (props) => {
         <h2 className="font-semibold text-2xl capitalize text-center">
           {props.data.header}
         </h2>
-        <p className="font-serif text-base px-4">{props.data.paragraph}</p>
+        <p style={{ fontFamily: "Domine" }} className="text-base px-4">
+          {props.data.paragraph}
+        </p>
       </div>
     </div>
   );
