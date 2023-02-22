@@ -27,6 +27,10 @@ module.exports = {
 
           error: "#DC2626",
         },
+        fontFamily: {
+          sans: ["Open Sans", "sans-serif"],
+          serif: ["Merriweather", "serif"],
+        },
       },
       "light",
     ],
