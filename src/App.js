@@ -4,6 +4,8 @@ import { themeChange } from "theme-change";
 import Navbar from "./pages/Navbar";
 import Hero from "./pages/Hero";
 import About from "./pages/About";
+import CallToAction from "./pages/CallToAction";
+import Footer from "./pages/Footer";
 
 function App() {
   useEffect(() => {
@@ -16,6 +18,8 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <CallToAction />
+      <Footer />
     </div>
   );
 }
