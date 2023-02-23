@@ -1,4 +1,5 @@
 import liquidcheese from "../assets/liquidcheese.svg";
+import CallToActionButton from "./CallTo ActionButton";
 
 const Hero = () => {
   return (
@@ -31,9 +32,7 @@ const Hero = () => {
             series of thought provoking conversations available online to
             everyone, everywhere on International Women's Day.
           </p>
-          <button className="btn btn-secondary mt-6 capitalize rounded-full">
-            Save my Spot!
-          </button>
+          <CallToActionButton />
         </div>
       </div>
     </div>

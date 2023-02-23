@@ -1,7 +1,7 @@
 const AboutCard = (props) => {
   console.log(props);
   return (
-    <div className="card w-1/3 mx-4 bg-base-100 mt-7 mb-6">
+    <div className="z-0 card w-1/3 mx-4 bg-base-100 mt-7 mb-6">
       <figure className="p-10 w-60 mx-auto">
         <img src={props.data.url} alt="logo" />
       </figure>

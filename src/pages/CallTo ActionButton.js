@@ -1,16 +1,7 @@
 import ModalForm from "./ModalForm";
-const CallToAction = () => {
+const CallToActionButton = () => {
   return (
-    <div className="flex flex-col mt-4 justify-center">
-      <h3 style={{ fontFamily: "Domine" }} className="text-center">
-        More details comming soon!{" "}
-      </h3>
-      <h2 className="text-4xl min-w-content font-extrabold text-center py-3">
-        Want to save your spot?
-      </h2>
-      <h3 style={{ fontFamily: "Domine" }} className="text-center">
-        Register now to let us know you'll be attending
-      </h3>
+    <div className="z-50">
       {/* The button to open modal */}
       <label
         htmlFor="my-modal"
@@ -18,17 +9,9 @@ const CallToAction = () => {
       >
         Save my Spot!
       </label>
-
-      {/* Put this part before </body> tag */}
       <input type="checkbox" id="my-modal" className="modal-toggle" />
-      <div className="modal">
+      <div className="modal z-50">
         <div className="modal-box w-11/12 max-w-5xl">
-          <label
-            htmlFor="my-modal-3"
-            className="btn btn-sm btn-circle absolute right-2 top-2"
-          >
-            ✕
-          </label>
           <h3 className="font-bold text-lg">
             Register now to let us know you'll be attending
           </h3>
@@ -47,4 +30,4 @@ const CallToAction = () => {
   );
 };
 
-export default CallToAction;
+export default CallToActionButton;

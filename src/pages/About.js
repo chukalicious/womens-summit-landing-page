@@ -3,7 +3,7 @@ import AboutCard from "./AboutCard";
 
 const About = () => {
   return (
-    <div className="w-[80%] mx-auto">
+    <div className="w-[80%] mx-auto z-0">
       <h2 className="uppercase text-3xl mt-16 text-center font-extrabold">
         Together <span className=" text-secondary">we</span> can make waves for
         women entrepeneurs
